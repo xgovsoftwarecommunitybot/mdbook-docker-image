@@ -1,7 +1,7 @@
 FROM rust:1.57.0-slim AS build
 
 # Version numbers for all the crates we're going to install
-ARG MDBOOK_VERSION="0.4.15"
+ARG MDBOOK_VERSION="0.4.18"
 ARG MDBOOK_LINKCHECK_VERSION="0.7.6"
 ARG MDBOOK_MERMAID_VERSION="0.8.3"
 ARG MDBOOK_TOC_VERSION="0.7.0"
